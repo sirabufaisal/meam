@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+*{
+    font-family: 'Harmattan', sans-serif;
+}
+
+body{
+    background-color:#203051;
+}
+
+.home{
+    text-align: center;
+}
+.box{
+    background-color: whitesmoke;
+    width: auto;
+    position: relative;
+    top: 200px;
+    border-radius: 12px;
+}
+#demo{
+    border: 1px black solid;
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 105px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+img{
+    margin:5px auto;
+    border: 2px #002879 solid;
+    border-radius: 60%;
+    height: 100px;
+    width: 100px;
+}
