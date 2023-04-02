@@ -19,7 +19,6 @@ body{
 }
 #demo{
     border: 1px black solid;
-    
     border-top: none;
     border-left: none;
     border-right: none;
@@ -35,3 +34,57 @@ img{
     height: 100px;
     width: 100px;
 }
+
+/*-------------------------------------------*/
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #switch:checked ~ .outer{
+    background: #1a2844
+  }
+
+  #switch:checked ~ .outer .p1{
+    color: #ffffff;
+  }
+  .outer .toggle{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background: #65686b;
+    right: 15px;
+    top: 13px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #switch:checked ~ .outer .toggle{
+    background: #fff;
+  }
+  .outer .toggle .circle{
+    margin-left: 3px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.3s ease;
+  }
+  #switch:checked ~ .outer .circle{
+    margin-left: 22px;
+    background: #1e1e1e;
+  }
+  .content button:hover{
+    animation: bounce 0.9s infinite; 
+    background-color: #6bb7ff;
+  }
+  #switch:checked ~ .outer button{
+    background: #1e1e1e;
+    color: #092c3e;
+  }
+  #switch{
+    display: none;
+  }
+  
