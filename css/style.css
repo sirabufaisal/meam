@@ -43,7 +43,8 @@ img{
     align-items: center;
   }
   #switch:checked ~ .outer{
-    background: #1a2844
+    background: #1a2844;
+    border-radius: 12px;
   }
 
   #switch:checked ~ .outer .p1{
