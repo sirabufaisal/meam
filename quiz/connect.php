@@ -1,3 +1,3 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "quiz");
+$con = mysqli_connect("51.223.116.38", "root", "", "quiz");
 ?>
